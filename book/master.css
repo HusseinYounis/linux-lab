@@ -210,11 +210,21 @@
   font-weight: 600;
   color: var(--r-main-color);
 }
+.highlight-box ul,
+.highlight-box ol,
+.hl-sub ul,
+.hl-sub ol {
+  text-align: left;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .hl-sub {
   margin-top: 0.8em;
   font-size: 0.8em;
   font-weight: 400;
   color: var(--r-muted-text);
+  text-align: center;
 }
 
 /* Key Takeaways */
